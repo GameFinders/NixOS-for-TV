@@ -12,7 +12,8 @@ To deploy, copy this repo before running nixos-install:
 [root@nixos:/home/nixos]# cd /mnt/etc/nixos
 [root@nixos:/mnt/etc/nixos]# nixos-generate-config --root /mnt
 [root@nixos:/mnt/etc/nixos]# rm -rf ./configuration.nix
-[root@nixos:/mnt/etc/nixos]# curl -fLO https://raw.githubusercontent.com/GameFinders/NixOS-for-TV/main/configuration.nix && curl -fLO https://raw.githubusercontent.com/GameFinders/NixOS-for-TV/main/packages.nix
+[root@nixos:/mnt/etc/nixos]# REPO="https://raw.githubusercontent.com/GameFinders/NixOS-for-TV/main"
+[root@nixos:/mnt/etc/nixos]# curl -fLO $REPO/configuration.nix && curl -fLO $REPO/packages.nix
 [root@nixos:/mnt/etc/nixos]# nixos-install
 [root@nixos:/mnt/etc/nixos]# nixos-enter
 [root@nixos:/]# passwd tv-user
