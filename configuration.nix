@@ -76,7 +76,7 @@
       wayland.enable = true;
     };
     displayManager = {
-      autologin = {
+      autoLogin = {
         enable = true;
         user = "tv-user";
       };
