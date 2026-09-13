@@ -80,8 +80,11 @@
         enable = true;
         user = "tv-user";
       };
-      defaultSession = "plasma-bigscreen";
+      defaultSession = "plasma-bigscreen-wayland";
     };
+    displayManager.sessionPackages = [
+      pkgs.kdePackages.plasma-bigscreen
+    ];
     desktopManager.plasma6 = {
       enable = true;
     };
