@@ -39,7 +39,7 @@
   ];
 
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages;
 
   networking.hostName = "NixOS-TV"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -207,8 +207,8 @@
   # Or disable the firewall altogether.
   networking.firewall.enable = false;
 
-  # OpenRGB
-  services.hardware.openrgb.enable = true;
+  # Uncomment if you have RGB (Enables OpenRGB.)
+  #services.hardware.openrgb.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
