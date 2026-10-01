@@ -12,7 +12,7 @@ To deploy, copy this repo before running nixos-install:
 [root@nixos:/home/nixos]# cd /mnt/etc/nixos
 [root@nixos:/mnt/etc/nixos]# nixos-generate-config --root /mnt
 [root@nixos:/mnt/etc/nixos]# rm -rf ./configuration.nix
-[root@nixos:/mnt/etc/nixos]# REPO="https://raw.githubusercontent.com/GameFinders/NixOS-for-TV/main"
+[root@nixos:/mnt/etc/nixos]# REPO="https://raw.githubusercontent.com/GameFinders/NixOS-for-TV/beta"
 [root@nixos:/mnt/etc/nixos]# curl -fLO $REPO/configuration.nix && curl -fLO $REPO/packages.nix
 [root@nixos:/mnt/etc/nixos]# nixos-install
 [root@nixos:/mnt/etc/nixos]# nixos-enter
@@ -40,3 +40,7 @@ Think of Nix like a chef, configuration.nix like a recipe, and packages.nix like
 The chef cooks food according to the recipe, while Nix evaluates configuration.nix and its imports.
 
 But unlike a chef which can mistake a word in the recipe if it is written in a different font than the other word, Nix when it encounters a error will halt the rebuild immediately.
+
+# More info
+
+This is the beta branch which uses the latest Linux kernel instead of the LTS branch.
