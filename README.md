@@ -30,3 +30,13 @@ if /dev/nvme0n1 etc., use p1 instead of 1 and p2 instead of 2.
 # Why WTFPL
 
 i had no idea what license to use.
+
+# How to manage this?
+
+NixOS provides declarative configurations with configuration.nix.
+
+Think of Nix like a chef, configuration.nix like a recipe, and packages.nix like a sub-recipe.
+
+The chef cooks food according to the recipe, while Nix evaluates configuration.nix and its imports.
+
+But unlike a chef which can mistake a word in the recipe if it is written in a different font than the other word, Nix when it encounters a error will halt the rebuild immediately.
