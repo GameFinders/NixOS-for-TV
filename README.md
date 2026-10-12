@@ -1,4 +1,4 @@
-# NixOS for Televisions
+bu# NixOS for Televisions
 
 Plasma Bigscreen included.
 
@@ -40,3 +40,7 @@ Think of Nix like a chef, configuration.nix like a recipe, and packages.nix like
 The chef cooks food according to the recipe, while Nix evaluates configuration.nix and its imports.
 
 But unlike a chef which can mistake a word in the recipe if it is written in a different font than the other word, Nix when it encounters a error will halt the rebuild immediately.
+
+# What can i use as a remote?
+
+KDE Connect, a bluetooth stick, or as i call the most ridiculous one, a *PlayStation 4 controller*.
