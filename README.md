@@ -44,3 +44,7 @@ But unlike a chef which can mistake a word in the recipe if it is written in a d
 # More info
 
 This is the beta branch which uses the latest Linux kernel instead of the LTS branch.
+
+# What can i use as a remote?
+
+KDE Connect, a bluetooth stick, or as i call the most ridiculous one, a *PlayStation 4 controller*.
