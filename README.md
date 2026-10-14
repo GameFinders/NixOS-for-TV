@@ -1,4 +1,4 @@
-bu# NixOS for Televisions
+# NixOS for Televisions
 
 Plasma Bigscreen included.
 
